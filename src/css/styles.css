@@ -1,0 +1,13 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-bar{
+   background-color: #ff00d4;
+   height: 50px;
+   width: 500px;
+   padding: 10px;
+   margin: 50px;
+   border: solid 5px #ff0000;
+}
