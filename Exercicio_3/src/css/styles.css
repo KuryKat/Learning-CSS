@@ -9,33 +9,22 @@
 }
 
 .divisor-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 72px;
     background: #ffffff;
-    height: 72px;
-    align-items: center;
-    display: flex;
-}
-
-.divisor-top>.sandwich-menu {
-    width: 241px;
-    height: 72px;
-    display: flex;
-    align-items: center;
 }
 
 .img-logo {
     display: flex;
-    width: 241px;
-    height: 77.45px;
     align-items: center;
     justify-content: center;
-}
-
-.img-logo>.logo {
-    width: 209px;
-    height: 45.45px;
-    align-items: center;
+    width: 241px;
+    height: 77.45px;
 }
 
 .img-logo>img {
-    align-items: center;
+    width: 209px;
+    height: 45.45px;
 }
