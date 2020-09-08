@@ -1,0 +1,18 @@
+a {
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: #b9c941;
+}
+
+a:hover {
+    color: #ffffff;
+    background: #6d790f;
+}
+
+a:active {
+    color: #e4f371;
+}

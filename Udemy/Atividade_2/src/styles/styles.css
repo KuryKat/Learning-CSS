@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-image: url('../images/fundo.png');
+}
+
+nav {
+    background-color: gray;
+    width: 900px;
+    height: 70px;
+    padding-left: 5px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+nav>span {
+    text-decoration: none;
+    font-size: 2em;
+    font: rgb(179, 48, 48);
+}
+
+nav>span>a {
+    text-decoration: none;
+}
+
+article {
+    background-color: white;
+    width: 900px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+article>h2 p {
+    color: gray;
+    margin: 8px;
+}
+
+article>p {
+    margin: 4px;
+}
+
+footer {
+    font-size: 16px;
+    background-color: darkgray;
+    width: 900px;
+    height: 40px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.campanhas>img {
+    border: solid 5px gray;
+}
+
+.bio {
+    padding: 10px
+}
+
+.contato>b>a {
+    text-decoration: none;
+}
