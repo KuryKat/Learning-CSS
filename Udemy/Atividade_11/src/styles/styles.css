@@ -1,23 +1,35 @@
-ul {
+ul#nav {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
+    width: 720px;
+    background: #159cb0 url("../images/fundo-horizontal.png") repeat-x;
+    float: left;
 }
 
-ul a {
-    width: 200px;
-    height: 40px;
+ul#nav li {
+    float: left;
+}
+
+ul#nav a {
     display: block;
-    color: #000;
+    padding: 0 2em;
+    line-height: 2.5em;
     text-decoration: none;
-    text-indent: 40px;
-    line-height: 40px;
-    background: #f7b600 url(../images/menu.png) no-repeat left bottom;
+    color: #FFF;
+    background: url("../images/divisor.png") repeat-y left top;
 }
 
-ul a:hover,
-.selecionado a {
-    background-position: right bottom;
-    background-color: #f99200;
-    color: #FFF;
+ul#nav li:first-child a {
+    background: none;
+}
+
+ul#nav li>a:hover {
+    color: #085662;
+    background: #44cade;
+}
+
+ul#nav #selecionado>a {
+    background: #44cade;
+    color: #085662;
 }
